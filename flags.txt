@@ -1,0 +1,5 @@
+__ignore__
+dead
+alive
+
+# labelme data_annotated --flags flags.txt --nodata
