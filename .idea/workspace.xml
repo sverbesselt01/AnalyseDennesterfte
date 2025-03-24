@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0a0c551-9df9-4ac3-bb1a-9a7f9619da9a" name="Changes" comment="&quot;modifications&quot;">
-      <change afterPath="$PROJECT_DIR$/Kmeans_clus.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kmeans_clus_validation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scatterplot_and_correlation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +22,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/sverbesselt01/AnalyseDennesterfte",
+    "accountId": "18bf440e-ffd9-4371-8f52-291f8bff7348"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -80,7 +83,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742482506139</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&quot;modifications&quot;">
+      <option name="closed" value="true" />
+      <created>1742814624267</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742814624267</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,6 +107,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;modifications&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;modifications&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
