@@ -20,13 +20,24 @@ pip install -r requirements.txt
 2. correctRaster.py: remove empty boxes (with no pixels).
 3. In QGIS: Make a copy of your tile file and select the tiles that have a dead tree within the tile (data of Thomas).
 4. extractTiles.py: crop the orthomosaic to the extent of every box.
-4. Label the images using labelme.
-5. Convert_json_to_polygons.py: make shape file with labels.
-6. Merge the alive trees and dead trees, dissolve boundaries. Make sure the dead trees are on top of the alive trees (shape_labels_merging.model3 script in QGIS). 
+5. Label the images using labelme. Type following command in the terminal:
+~~~shell
+labelme 
+~~~
+or reference directly to your folder and add your pre-defined labels:
+~~~shell
+labelme ./Images/FC --labels labels.txt --nodata --validatelabel exact --config '{shift_auto_shape_color: -2}'
+~~~
+or reference directly to your folder and add your pre-defined flags (for annotation or classification):
+~~~shell
+labelme ./Images/FC --flags flags.txt --nodata
+~~~
+
+6. Convert_json_to_polygons.py: make shape file with labels.
+7. Merge the alive trees and dead trees, dissolve boundaries. Make sure the dead trees are on top of the alive trees (shape_labels_merging.model3 script in QGIS). 
 
 ### Anaylysis options
-7. Scatterplot_and_correlation.py: Calculate the amount (in %) of dead trees, alive trees, soil for every tile do correlation between segemented trees (labelme) and result Thomas (NDVI thresholds + CHM threshold).
-8. Kmeans_clus.py: Pixel-wise clustering of UAV imagery. Find optimal amount of clusters and predict.
-9. Kmeans_clus_validation.py: Validation of the clustering result with the reference imagery (Thomas: result_vitality_{name_location}.tif).
-10. 
+8. Scatterplot_and_correlation.py: Calculate the amount (in %) of dead trees, alive trees, soil for every tile do correlation between segemented trees (labelme) and result Thomas (NDVI thresholds + CHM threshold).
+9. Kmeans_clus.py: Pixel-wise clustering of UAV imagery. Find optimal amount of clusters and predict.
+10. Kmeans_clus_validation.py: Validation of the clustering result with the reference imagery (Thomas: result_vitality_{name_location}.tif).
 
