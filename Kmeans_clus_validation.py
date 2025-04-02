@@ -7,12 +7,12 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load clustered image
-output_path = "C:/Users/sebastiaan_verbessel/PycharmProjects/Labelme/testdata_Thomas/UAV/clustered_output4.tif"
+output_path = "G:/Mijn Drive/Dennensterfte/Labelme/testdata_Thomas/UAV/clustered_output4.tif"
 clustered_img = rasterio.open(output_path)
 clustered_array = clustered_img.read(1)
 
 # Load reference image
-reference_img = rasterio.open("C:/Users/sebastiaan_verbessel/PycharmProjects/Labelme/testdata_Thomas/UAV/NDVI_threshold/resultaat vitaliteit drone NDVI/result_vitality_Arendonk.tif")
+reference_img = rasterio.open("G:/Mijn Drive/Dennensterfte/Labelme/testdata_Thomas/UAV/NDVI_threshold/resultaat vitaliteit drone NDVI/result_vitality_Arendonk.tif")
 
 # Reproject reference image to match the clustered image
 reprojected_reference_array = np.empty_like(clustered_array)

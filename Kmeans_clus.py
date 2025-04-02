@@ -12,7 +12,7 @@ import seaborn as sns
 
 
 
-img=rasterio.open("C:/Users/sebastiaan_verbessel/PycharmProjects/Labelme/testdata_Thomas/UAV/Geclipt_Arendonk_repr.tif")
+img=rasterio.open("G:/Mijn Drive/Dennensterfte/Labelme/testdata_Thomas/UAV/Geclipt_Arendonk_repr.tif")
 #img=rasterio.open("https://drive.google.com/drive/u/0/my-drive/Geclipt_Arendonk_repr.tif")
 #show(img,0)
 
@@ -70,7 +70,7 @@ print(X_group['cluster_id'].value_counts())
 clustered_image = clustered_labels.reshape(original_shape)
 
 # Export clustered result as a new TIFF file
-output_path = "C:/Users/sebastiaan_verbessel/PycharmProjects/Labelme/testdata_Thomas/UAV/clustered_output4b.tif"
+output_path = "G:/Mijn Drive/Dennensterfte/Labelme/testdata_Thomas/UAV/clustered_output4b.tif"
 with rasterio.open(
     output_path, "w",
     driver="GTiff",

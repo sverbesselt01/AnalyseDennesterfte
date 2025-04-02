@@ -74,8 +74,8 @@ def process_json_and_save_shapefile(shapefile_path, folder_path, output_shapefil
 
 
 if __name__ == "__main__":
-    shapefile_path = 'C:/Users/sebastiaan_verbessel/PycharmProjects/Labelme/Tiles_sel.shp'
-    folder_path = 'C:/Users/sebastiaan_verbessel/PycharmProjects/Labelme/Images/All5'
-    output_shapefile = 'C:/Users/sebastiaan_verbessel/PycharmProjects/Labelme/Labeler2.shp'
+    shapefile_path = 'G:/Mijn Drive/Dennensterfte/Labelme/Tiles_sel.shp'
+    folder_path = 'G:/Mijn Drive/Dennensterfte/Labelme/Images/All5'
+    output_shapefile = 'G:/Mijn Drive/Dennensterfte/Labelme/Labeler2.shp'
 
     process_json_and_save_shapefile(shapefile_path, folder_path, output_shapefile)
