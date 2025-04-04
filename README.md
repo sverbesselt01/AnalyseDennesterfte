@@ -1,9 +1,9 @@
 # AI for orthomosaics
 
 ### Requirements
-- Pycharm (community edition)
-- Python 3.12
-- QGis 3.40.4
+- Pycharm (community edition) or Visual studio
+- Python 3.12 (or 3.13, but then the requirements file must be updated).
+- QGIS (e.g. 3.40.4)
 
 ### Install python modules
 1. Open terminal
@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 :rocket: Ready to start :rocket:
 
-### Processing steps
+### General processing steps
 0. Modify the hyperparameters in the .env file. 
 1. drawRaster.py: makes raster of tiles for DL model, select buffer to be large enough to cover full orthomosaic.
 2. correctRaster.py: remove empty boxes (with no pixels).
@@ -34,9 +34,9 @@ labelme ./Images/FC --flags flags.txt --nodata
 ~~~
 
 6. Convert_json_to_polygons.py: make shape file with labels.
-7. Merge the alive trees and dead trees, dissolve boundaries. Make sure the dead trees are on top of the alive trees (shape_labels_merging.model3 script in QGIS). 
 
-### Anaylysis options
+### Analysis options (first toy data --> UAV images)
+7. Merge the alive trees and dead trees, dissolve boundaries. Make sure the dead trees are on top of the alive trees (shape_labels_merging.model3 script in QGIS). 
 8. Scatterplot_and_correlation.py: Calculate the amount (in %) of dead trees, alive trees, soil for every tile do correlation between segemented trees (labelme) and result Thomas (NDVI thresholds + CHM threshold).
 9. Kmeans_clus.py: Pixel-wise clustering of UAV imagery. Find optimal amount of clusters and predict.
 10. Kmeans_clus_validation.py: Validation of the clustering result with the reference imagery (Thomas: result_vitality_{name_location}.tif).

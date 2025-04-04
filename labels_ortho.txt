@@ -1,0 +1,5 @@
+dead
+alive
+black
+soil
+other_veg
