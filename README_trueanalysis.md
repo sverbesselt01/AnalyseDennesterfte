@@ -36,4 +36,4 @@ OMWRGB23VL_vdc stands for:
 ~~~shell
 labelme --labels labels_ortho.txt --flags flags_ortho.txt --nodata --validatelabel exact --config '{shift_auto_shape_color: -2}' 
 ~~~ 
-Try to annotated 3-5 objects per label (where possible). Use the reference data of Thomas ("./testdata_Thomas/UAV/orthomozaiek" & "./testdata_Thomas/UAV/NDVI_threshold") for the photo interpretation. 
+Try to annotated 2-5 objects per label (where possible). Use the reference data of Thomas ("./testdata_Thomas/UAV/orthomozaiek" & "./testdata_Thomas/UAV/NDVI_threshold") for the photo interpretation. 

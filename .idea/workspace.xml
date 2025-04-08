@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0296e894-13ff-49f5-b54f-6fcee42cebdd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README_trueanalysis.md" afterDir="false" />
+    <list default="true" id="0296e894-13ff-49f5-b54f-6fcee42cebdd" name="Changes" comment="New files and modifications.">
       <change afterPath="$PROJECT_DIR$/backup/Tiles__12032025_0943.cpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/backup/Tiles__12032025_0943.dbf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/backup/Tiles__12032025_0943.prj" afterDir="false" />
@@ -421,17 +420,8 @@
       <change afterPath="$PROJECT_DIR$/backup/Tiles_sel__19032025_2209.prj" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/backup/Tiles_sel__19032025_2209.shp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/backup/Tiles_sel__19032025_2209.shx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clip_orhto_images.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/correctRasterortho.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drawRasterortho.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/extractTilesortho.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flags_ortho.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labels_ortho.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Labelme.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Labelme.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README_trueanalysis.md" beforeDir="false" afterPath="$PROJECT_DIR$/README_trueanalysis.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -527,6 +517,30 @@
       <option name="presentableId" value="Default" />
       <updated>1743595020198</updated>
     </task>
+    <task id="LOCAL-00001" summary="New files and modifications.">
+      <option name="closed" value="true" />
+      <created>1743753994648</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743753994648</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New files and modifications." />
+    <option name="LAST_COMMIT_MESSAGE" value="New files and modifications." />
   </component>
 </project>
